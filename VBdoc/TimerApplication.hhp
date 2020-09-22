@@ -1,0 +1,109 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Contents file=TimerApplication.hhc
+Index file=TimerApplication.hhk
+Default topic=TimerApplication+title.html
+Default Window=main
+Full-text search=Yes
+
+[WINDOWS]
+main="TimerApplication","TimerApplication.hhc","TimerApplication.hhk","TimerApplication+title.html",,,,,,0x62520,,0x381e,[73,30,525,455],,,,,,,0
+
+[FILES]
+
+[ALIAS]
+frmAlarmTimerStopWatch-BlinkingAlarmReadout.html=frmAlarmTimerStopWatch-BlinkingAlarmReadout.html
+frmAlarmTimerStopWatch-BlinkingStopReadout.html=frmAlarmTimerStopWatch-BlinkingStopReadout.html
+frmAlarmTimerStopWatch-blnAlarmOn.html=frmAlarmTimerStopWatch-blnAlarmOn.html
+frmAlarmTimerStopWatch-blnBlkBtnDn.html=frmAlarmTimerStopWatch-blnBlkBtnDn.html
+frmAlarmTimerStopWatch-blnGrnBtnDn.html=frmAlarmTimerStopWatch-blnGrnBtnDn.html
+frmAlarmTimerStopWatch-blnRedBtnDn.html=frmAlarmTimerStopWatch-blnRedBtnDn.html
+frmAlarmTimerStopWatch-blnStopTime.html=frmAlarmTimerStopWatch-blnStopTime.html
+frmAlarmTimerStopWatch-blnTestOn.html=frmAlarmTimerStopWatch-blnTestOn.html
+frmAlarmTimerStopWatch-blnTimeDisplay.html=frmAlarmTimerStopWatch-blnTimeDisplay.html
+frmAlarmTimerStopWatch-ClockNormalTime.html=frmAlarmTimerStopWatch-ClockNormalTime.html
+frmAlarmTimerStopWatch-ClockOtherTime.html=frmAlarmTimerStopWatch-ClockOtherTime.html
+frmAlarmTimerStopWatch-Decrement.html=frmAlarmTimerStopWatch-Decrement.html
+frmAlarmTimerStopWatch-DisplayHands.html=frmAlarmTimerStopWatch-DisplayHands.html
+frmAlarmTimerStopWatch-Form_Load.html=frmAlarmTimerStopWatch-Form_Load.html
+frmAlarmTimerStopWatch.html=frmAlarmTimerStopWatch.html
+frmAlarmTimerStopWatch-Increment.html=frmAlarmTimerStopWatch-Increment.html
+frmAlarmTimerStopWatch-intblink.html=frmAlarmTimerStopWatch-intblink.html
+frmAlarmTimerStopWatch-intHandLength.html=frmAlarmTimerStopWatch-intHandLength.html
+frmAlarmTimerStopWatch-intNumBlkClicks.html=frmAlarmTimerStopWatch-intNumBlkClicks.html
+frmAlarmTimerStopWatch-intNumGrnClicks.html=frmAlarmTimerStopWatch-intNumGrnClicks.html
+frmAlarmTimerStopWatch-intNumRedClicks.html=frmAlarmTimerStopWatch-intNumRedClicks.html
+frmAlarmTimerStopWatch-MakeElapsedTime.html=frmAlarmTimerStopWatch-MakeElapsedTime.html
+frmAlarmTimerStopWatch-MakeStopTime.html=frmAlarmTimerStopWatch-MakeStopTime.html
+frmAlarmTimerStopWatch-PI.html=frmAlarmTimerStopWatch-PI.html
+frmAlarmTimerStopWatch-picBlkBtn_MouseDown.html=frmAlarmTimerStopWatch-picBlkBtn_MouseDown.html
+frmAlarmTimerStopWatch-picBlkBtn_MouseUp.html=frmAlarmTimerStopWatch-picBlkBtn_MouseUp.html
+frmAlarmTimerStopWatch-picGrnBtn_MouseDown.html=frmAlarmTimerStopWatch-picGrnBtn_MouseDown.html
+frmAlarmTimerStopWatch-picGrnBtn_MouseUp.html=frmAlarmTimerStopWatch-picGrnBtn_MouseUp.html
+frmAlarmTimerStopWatch-picRedBtn_MouseDown.html=frmAlarmTimerStopWatch-picRedBtn_MouseDown.html
+frmAlarmTimerStopWatch-picRedBtn_MouseUp.html=frmAlarmTimerStopWatch-picRedBtn_MouseUp.html
+frmAlarmTimerStopWatch-picSetBtn_MouseDown.html=frmAlarmTimerStopWatch-picSetBtn_MouseDown.html
+frmAlarmTimerStopWatch-picSetBtn_MouseUp.html=frmAlarmTimerStopWatch-picSetBtn_MouseUp.html
+frmAlarmTimerStopWatch-picSoundOff_Click.html=frmAlarmTimerStopWatch-picSoundOff_Click.html
+frmAlarmTimerStopWatch-picSoundOn_Click.html=frmAlarmTimerStopWatch-picSoundOn_Click.html
+frmAlarmTimerStopWatch-picTestSound_Click.html=frmAlarmTimerStopWatch-picTestSound_Click.html
+frmAlarmTimerStopWatch-SetAlarmTime.html=frmAlarmTimerStopWatch-SetAlarmTime.html
+frmAlarmTimerStopWatch-SetStopTime.html=frmAlarmTimerStopWatch-SetStopTime.html
+frmAlarmTimerStopWatch-strAlarmSound.html=frmAlarmTimerStopWatch-strAlarmSound.html
+frmAlarmTimerStopWatch-strAlarmTime.html=frmAlarmTimerStopWatch-strAlarmTime.html
+frmAlarmTimerStopWatch-strLastSecond.html=frmAlarmTimerStopWatch-strLastSecond.html
+frmAlarmTimerStopWatch-strSetAlarm.html=frmAlarmTimerStopWatch-strSetAlarm.html
+frmAlarmTimerStopWatch-strSetReadout.html=frmAlarmTimerStopWatch-strSetReadout.html
+frmAlarmTimerStopWatch-strSetStop.html=frmAlarmTimerStopWatch-strSetStop.html
+frmAlarmTimerStopWatch-strStopSound.html=frmAlarmTimerStopWatch-strStopSound.html
+frmAlarmTimerStopWatch-strStopTime.html=frmAlarmTimerStopWatch-strStopTime.html
+frmAlarmTimerStopWatch-tmrNormal_Timer.html=frmAlarmTimerStopWatch-tmrNormal_Timer.html
+
+
+[MAP]
+#define frmAlarmTimerStopWatch-BlinkingAlarmReadout.html 0	
+#define frmAlarmTimerStopWatch-BlinkingStopReadout.html 0	
+#define frmAlarmTimerStopWatch-blnAlarmOn.html 0	
+#define frmAlarmTimerStopWatch-blnBlkBtnDn.html 0	
+#define frmAlarmTimerStopWatch-blnGrnBtnDn.html 0	
+#define frmAlarmTimerStopWatch-blnRedBtnDn.html 0	
+#define frmAlarmTimerStopWatch-blnStopTime.html 0	
+#define frmAlarmTimerStopWatch-blnTestOn.html 0	
+#define frmAlarmTimerStopWatch-blnTimeDisplay.html 0	
+#define frmAlarmTimerStopWatch-ClockNormalTime.html 0	
+#define frmAlarmTimerStopWatch-ClockOtherTime.html 0	
+#define frmAlarmTimerStopWatch-Decrement.html 0	
+#define frmAlarmTimerStopWatch-DisplayHands.html 0	
+#define frmAlarmTimerStopWatch-Form_Load.html 0	
+#define frmAlarmTimerStopWatch.html 100	
+#define frmAlarmTimerStopWatch-Increment.html 0	
+#define frmAlarmTimerStopWatch-intblink.html 0	
+#define frmAlarmTimerStopWatch-intHandLength.html 0	
+#define frmAlarmTimerStopWatch-intNumBlkClicks.html 0	
+#define frmAlarmTimerStopWatch-intNumGrnClicks.html 0	
+#define frmAlarmTimerStopWatch-intNumRedClicks.html 0	
+#define frmAlarmTimerStopWatch-MakeElapsedTime.html 0	
+#define frmAlarmTimerStopWatch-MakeStopTime.html 0	
+#define frmAlarmTimerStopWatch-PI.html 0	
+#define frmAlarmTimerStopWatch-picBlkBtn_MouseDown.html 0	
+#define frmAlarmTimerStopWatch-picBlkBtn_MouseUp.html 0	
+#define frmAlarmTimerStopWatch-picGrnBtn_MouseDown.html 0	
+#define frmAlarmTimerStopWatch-picGrnBtn_MouseUp.html 0	
+#define frmAlarmTimerStopWatch-picRedBtn_MouseDown.html 0	
+#define frmAlarmTimerStopWatch-picRedBtn_MouseUp.html 0	
+#define frmAlarmTimerStopWatch-picSetBtn_MouseDown.html 0	
+#define frmAlarmTimerStopWatch-picSetBtn_MouseUp.html 0	
+#define frmAlarmTimerStopWatch-picSoundOff_Click.html 0	
+#define frmAlarmTimerStopWatch-picSoundOn_Click.html 0	
+#define frmAlarmTimerStopWatch-picTestSound_Click.html 0	
+#define frmAlarmTimerStopWatch-SetAlarmTime.html 0	
+#define frmAlarmTimerStopWatch-SetStopTime.html 0	
+#define frmAlarmTimerStopWatch-strAlarmSound.html 0	
+#define frmAlarmTimerStopWatch-strAlarmTime.html 0	
+#define frmAlarmTimerStopWatch-strLastSecond.html 0	
+#define frmAlarmTimerStopWatch-strSetAlarm.html 0	
+#define frmAlarmTimerStopWatch-strSetReadout.html 0	
+#define frmAlarmTimerStopWatch-strSetStop.html 0	
+#define frmAlarmTimerStopWatch-strStopSound.html 0	
+#define frmAlarmTimerStopWatch-strStopTime.html 0	
+#define frmAlarmTimerStopWatch-tmrNormal_Timer.html 0	

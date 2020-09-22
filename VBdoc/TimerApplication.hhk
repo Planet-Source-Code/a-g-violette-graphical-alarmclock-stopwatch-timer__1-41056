@@ -1,0 +1,286 @@
+<HTML>
+<!-- Sitemap 1.0 -->
+<OBJECT type="text/site properties">
+</OBJECT>
+
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BlinkingAlarmReadout method">
+		<param name="Name" value="BlinkingAlarmReadout method">
+		<param name="Local" value="frmAlarmTimerStopWatch-BlinkingAlarmReadout.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BlinkingStopReadout method">
+		<param name="Name" value="BlinkingStopReadout method">
+		<param name="Local" value="frmAlarmTimerStopWatch-BlinkingStopReadout.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="blnAlarmOn variable">
+		<param name="Name" value="blnAlarmOn variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-blnAlarmOn.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="blnBlkBtnDn variable">
+		<param name="Name" value="blnBlkBtnDn variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-blnBlkBtnDn.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="blnGrnBtnDn variable">
+		<param name="Name" value="blnGrnBtnDn variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-blnGrnBtnDn.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="blnRedBtnDn variable">
+		<param name="Name" value="blnRedBtnDn variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-blnRedBtnDn.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="blnStopTime variable">
+		<param name="Name" value="blnStopTime variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-blnStopTime.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="blnTestOn variable">
+		<param name="Name" value="blnTestOn variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-blnTestOn.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="blnTimeDisplay variable">
+		<param name="Name" value="blnTimeDisplay variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-blnTimeDisplay.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ClockNormalTime method">
+		<param name="Name" value="ClockNormalTime method">
+		<param name="Local" value="frmAlarmTimerStopWatch-ClockNormalTime.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ClockOtherTime method">
+		<param name="Name" value="ClockOtherTime method">
+		<param name="Local" value="frmAlarmTimerStopWatch-ClockOtherTime.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Decrement method">
+		<param name="Name" value="Decrement method">
+		<param name="Local" value="frmAlarmTimerStopWatch-Decrement.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="DisplayHands method">
+		<param name="Name" value="DisplayHands method">
+		<param name="Local" value="frmAlarmTimerStopWatch-DisplayHands.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Form_Load method">
+		<param name="Name" value="Form_Load method">
+		<param name="Local" value="frmAlarmTimerStopWatch-Form_Load.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="frmAlarmTimerStopWatch form">
+		<param name="Name" value="frmAlarmTimerStopWatch form">
+		<param name="Local" value="frmAlarmTimerStopWatch.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Increment method">
+		<param name="Name" value="Increment method">
+		<param name="Local" value="frmAlarmTimerStopWatch-Increment.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="intblink variable">
+		<param name="Name" value="intblink variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-intblink.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="intHandLength variable">
+		<param name="Name" value="intHandLength variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-intHandLength.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="intNumBlkClicks variable">
+		<param name="Name" value="intNumBlkClicks variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-intNumBlkClicks.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="intNumGrnClicks variable">
+		<param name="Name" value="intNumGrnClicks variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-intNumGrnClicks.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="intNumRedClicks variable">
+		<param name="Name" value="intNumRedClicks variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-intNumRedClicks.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MakeElapsedTime method">
+		<param name="Name" value="MakeElapsedTime method">
+		<param name="Local" value="frmAlarmTimerStopWatch-MakeElapsedTime.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MakeStopTime method">
+		<param name="Name" value="MakeStopTime method">
+		<param name="Local" value="frmAlarmTimerStopWatch-MakeStopTime.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="PI constant">
+		<param name="Name" value="PI constant">
+		<param name="Local" value="frmAlarmTimerStopWatch-PI.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picBlkBtn_MouseDown method">
+		<param name="Name" value="picBlkBtn_MouseDown method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picBlkBtn_MouseDown.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picBlkBtn_MouseUp method">
+		<param name="Name" value="picBlkBtn_MouseUp method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picBlkBtn_MouseUp.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picGrnBtn_MouseDown method">
+		<param name="Name" value="picGrnBtn_MouseDown method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picGrnBtn_MouseDown.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picGrnBtn_MouseUp method">
+		<param name="Name" value="picGrnBtn_MouseUp method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picGrnBtn_MouseUp.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picRedBtn_MouseDown method">
+		<param name="Name" value="picRedBtn_MouseDown method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picRedBtn_MouseDown.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picRedBtn_MouseUp method">
+		<param name="Name" value="picRedBtn_MouseUp method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picRedBtn_MouseUp.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picSetBtn_MouseDown method">
+		<param name="Name" value="picSetBtn_MouseDown method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picSetBtn_MouseDown.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picSetBtn_MouseUp method">
+		<param name="Name" value="picSetBtn_MouseUp method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picSetBtn_MouseUp.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picSoundOff_Click method">
+		<param name="Name" value="picSoundOff_Click method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picSoundOff_Click.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picSoundOn_Click method">
+		<param name="Name" value="picSoundOn_Click method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picSoundOn_Click.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="picTestSound_Click method">
+		<param name="Name" value="picTestSound_Click method">
+		<param name="Local" value="frmAlarmTimerStopWatch-picTestSound_Click.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="SetAlarmTime method">
+		<param name="Name" value="SetAlarmTime method">
+		<param name="Local" value="frmAlarmTimerStopWatch-SetAlarmTime.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="SetStopTime method">
+		<param name="Name" value="SetStopTime method">
+		<param name="Local" value="frmAlarmTimerStopWatch-SetStopTime.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="strAlarmSound variable">
+		<param name="Name" value="strAlarmSound variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-strAlarmSound.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="strAlarmTime variable">
+		<param name="Name" value="strAlarmTime variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-strAlarmTime.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="strLastSecond variable">
+		<param name="Name" value="strLastSecond variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-strLastSecond.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="strSetAlarm variable">
+		<param name="Name" value="strSetAlarm variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-strSetAlarm.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="strSetReadout variable">
+		<param name="Name" value="strSetReadout variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-strSetReadout.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="strSetStop variable">
+		<param name="Name" value="strSetStop variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-strSetStop.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="strStopSound variable">
+		<param name="Name" value="strStopSound variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-strStopSound.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="strStopTime variable">
+		<param name="Name" value="strStopTime variable">
+		<param name="Local" value="frmAlarmTimerStopWatch-strStopTime.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="tmrNormal_Timer method">
+		<param name="Name" value="tmrNormal_Timer method">
+		<param name="Local" value="frmAlarmTimerStopWatch-tmrNormal_Timer.html">
+		</OBJECT>
+
+
+</UL>
+
+</HTML>
