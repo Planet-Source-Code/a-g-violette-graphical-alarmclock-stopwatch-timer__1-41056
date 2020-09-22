@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<title>ClockNormalTime 
+
+Method</title>
+<style>@import url(chm_1.css);</style>
+</HEAD>
+<BODY>
+
+<h1>ClockNormalTime 
+
+Method</h1>
+
+<p>
+<OBJECT id=SEEfrmAlarmTimerStopWatchClockNormalTime type="application/x-oleobject"
+	classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11">
+	
+	<PARAM name="Command" value="Related Topics,MENU">
+
+
+
+</OBJECT>
+
+
+<font face="MS Serif" size="3" color="#666666"><u>See Also</u></font>
+
+&nbsp;&nbsp;&nbsp;
+<OBJECT id=EXAMfrmAlarmTimerStopWatchClockNormalTime type="application/x-oleobject"
+	classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11">
+	
+	<PARAM name="Command" value="Related Topics,MENU">
+
+
+
+</OBJECT>
+
+
+<font face="MS Serif" size="3" color="#666666"><u>Examples</u></font>
+
+&nbsp;&nbsp;&nbsp;
+<OBJECT id=APPfrmAlarmTimerStopWatchClockNormalTime type="application/x-oleobject"
+	classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11">
+	
+	<PARAM name="Command" value="Related Topics,MENU">
+
+
+	<PARAM name="Item1" value="frmAlarmTimerStopWatch;frmAlarmTimerStopWatch.html">
+
+
+</OBJECT>
+
+<a class="menu" href=JavaScript:APPfrmAlarmTimerStopWatchClockNormalTime.Click()>
+<font face="MS Serif" size="3">Applies To</font></a>
+
+
+
+
+<p class=label>
+<b>Syntax</b></p>
+<p>
+<i>object</i><b>.ClockNormalTime (</b><b>)</b></p>
+
+<p>
+The <b>ClockNormalTime</b> syntax has these parts:</p>
+
+<table border=1 cellpadding=5 cols=2 frame=below rules=rows>
+  <tr valign=top>
+    <td class=label width=20%>
+      <b>Part</b>
+    </td>
+    <td class=label width=80%>
+      <b>Description</b>
+    </td>
+  </tr>
+  <tr valign=top>
+    <td width=20%>
+      <i>object</i>
+    </td>
+    <td width=80%>
+      Required. An object expression that evaluates to an object in the
+      Applies To list.
+    </td>
+  </tr>
+
+</table>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=label>
+<b>Source code</b>
+<pre>
+Private Sub ClockNormalTime()<br>  <br>  Dim dblHandAngle As Double, Seconds As Double, Minutes As Double<br>  <br>  ' Calculate the position of the second hand<br>  '<br>  dblHandAngle = PI * (Second(Time) - 15)<br>  linTimeHands(2).X2 = linTimeHands(2).X1 + Cos(dblHandAngle) * intHandLength(2)<br>  linTimeHands(2).Y2 = linTimeHands(2).Y1 + Sin(dblHandAngle) * intHandLength(2)<br><br>  ' Calculate the position of the minute hand<br>  '<br>  Seconds = Second(Time) / 60<br>  dblHandAngle = PI * (Minute(Time) + Seconds - 15)<br>  linTimeHands(0).X2 = linTimeHands(0).X1 + Cos(dblHandAngle) * intHandLength(0)<br>  linTimeHands(0).Y2 = linTimeHands(0).Y1 + Sin(dblHandAngle) * intHandLength(0)<br>  linTimeHands(1).X2 = linTimeHands(1).X1 + Cos(dblHandAngle) * intHandLength(1)<br>  linTimeHands(1).Y2 = linTimeHands(1).Y1 + Sin(dblHandAngle) * intHandLength(1)<br><br>  ' Calculate the position of the hour hand<br>  '<br>  Minutes = Minute(Time) / 60<br>  dblHandAngle = (PI * 30) / 6 * (Hour(Time) + Minutes - 15)<br>  linTimeHands(3).X2 = linTimeHands(3).X1 + Cos(dblHandAngle) * intHandLength(3)<br>  linTimeHands(3).Y2 = linTimeHands(3).Y1 + Sin(dblHandAngle) * intHandLength(3)<br><br>End Sub
+</pre>
+
+
+</BODY>
+</HTML>

@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<title>picBlkBtn_MouseUp 
+
+Method</title>
+<style>@import url(chm_1.css);</style>
+</HEAD>
+<BODY>
+
+<h1>picBlkBtn_MouseUp 
+
+Method</h1>
+
+<p>
+<OBJECT id=SEEfrmAlarmTimerStopWatchpicBlkBtn_MouseUp type="application/x-oleobject"
+	classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11">
+	
+	<PARAM name="Command" value="Related Topics,MENU">
+
+
+
+</OBJECT>
+
+
+<font face="MS Serif" size="3" color="#666666"><u>See Also</u></font>
+
+&nbsp;&nbsp;&nbsp;
+<OBJECT id=EXAMfrmAlarmTimerStopWatchpicBlkBtn_MouseUp type="application/x-oleobject"
+	classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11">
+	
+	<PARAM name="Command" value="Related Topics,MENU">
+
+
+
+</OBJECT>
+
+
+<font face="MS Serif" size="3" color="#666666"><u>Examples</u></font>
+
+&nbsp;&nbsp;&nbsp;
+<OBJECT id=APPfrmAlarmTimerStopWatchpicBlkBtn_MouseUp type="application/x-oleobject"
+	classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11">
+	
+	<PARAM name="Command" value="Related Topics,MENU">
+
+
+	<PARAM name="Item1" value="frmAlarmTimerStopWatch;frmAlarmTimerStopWatch.html">
+
+
+</OBJECT>
+
+<a class="menu" href=JavaScript:APPfrmAlarmTimerStopWatchpicBlkBtn_MouseUp.Click()>
+<font face="MS Serif" size="3">Applies To</font></a>
+
+
+
+
+<p class=label>
+<b>Syntax</b></p>
+<p>
+<i>object</i><b>.picBlkBtn_MouseUp (</b><b>)</b></p>
+
+<p>
+The <b>picBlkBtn_MouseUp</b> syntax has these parts:</p>
+
+<table border=1 cellpadding=5 cols=2 frame=below rules=rows>
+  <tr valign=top>
+    <td class=label width=20%>
+      <b>Part</b>
+    </td>
+    <td class=label width=80%>
+      <b>Description</b>
+    </td>
+  </tr>
+  <tr valign=top>
+    <td width=20%>
+      <i>object</i>
+    </td>
+    <td width=80%>
+      Required. An object expression that evaluates to an object in the
+      Applies To list.
+    </td>
+  </tr>
+
+</table>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=label>
+<b>Source code</b>
+<pre>
+Private Sub picBlkBtn_MouseUp(Button As Integer, Shift As Integer, X As Single, Y As Single)<br>  <br>  intNumBlkClicks = intNumBlkClicks + 1               ' Track number of Black button clicks<br>                                                      ' and process accordingliy<br>  Select Case intNumBlkClicks<br>    Case 1                                            '======= FIRST CLICK ON BLACK ============<br>      picBlkBtn.Picture = picBlkBtnCocked.Picture     ' Black Button is in locked down position<br>      DisplayHands (False)                            ' Hide the watch hands for now<br>      lblActionType.Caption = "Set Alarm"             ' Indicate that Alarm is being set<br>      picSetBtn.Visible = True                        ' Show the option (red) setting button<br>      lblSetInstruction.Caption = "Hour"              ' Setting the Alarm HOUR at this point<br>      strSetReadout = strAlarmTime                    ' Use last Alarm setting if one exists<br>      picRedBtn.Enabled = False                       ' Disable the Red button<br>      picGrnBtn.Enabled = False                       ' Disable the Green button<br>    Case 2                                            '======= SECOND CLICK ON BLACK ===========<br>      picBlkBtn.Picture = picBlkBtnCocked.Picture     ' Black Button is in locked down position<br>      lblSetInstruction.Caption = "Minute"            ' Setting the Alarm MINUTE at this point<br>    Case 3                                            '======= THIRD CLICK ON BLACK ============<br>      picBlkBtn.Picture = picBlkBtnCocked.Picture     ' Black Button is in locked down position<br>      lblSetInstruction.Caption = "Second"            ' Setting the Alarm SECOND at this point<br>    Case 4                                            '======= FORTH CLICK ON BLACK ============<br>      picBlkBtn.Picture = picBlkBtnCocked.Picture     ' Black Button is in locked down position<br>      lblSetInstruction.Caption = "AM/PM"             ' Indicate setting of AM/PM at this point<br>    Case 5                                            '======= FIFTH CLICK ON BLACK ============<br>      picBlkBtn.Picture = picBlkBtnCocked.Picture     ' Black Button is in locked down position<br>      If (Left$(strSetReadout, 1) = "0") Then<br>        strAlarmTime = Right$(strSetReadout, 10)      ' Store the set Alarm time string<br>      Else<br>        strAlarmTime = strSetReadout<br>      End If<br>      strSetReadout = strSetAlarm                     ' Display the current ON/OFF setting<br>      lblSetInstruction.Caption = "ON/OFF"            ' Indicate setting of ON/OFF at this point<br>    Case 6                                            '======= SIXTH CLICK ON BLACK ============<br>      picBlkBtn.Picture = picBlkBtnCocked.Picture     ' Black Button is in locked down position<br>      strSetAlarm = strSetReadout                     ' Store the Alarm ON/OFF setting<br>      If (strSetAlarm = "OFF") Then<br>        picSetBtn.Visible = False                     ' Hide the option setting button<br>        strSetReadout = "Alarm is OFF"                ' Can't set sound with alarm set to OFF<br>      Else<br>        lblSetInstruction.Caption = "Sound"           ' Indicate setting sound at this point<br>        strSetReadout = strAlarmSound                 ' Display the current Alarm sound setting<br>        picTestSound.Picture = picTest.Picture        ' Indicate ready to "test" sound<br>        picTestSound.ToolTipText = "Test The Sound"   ' Set the tool tip text<br>        picTestSound.Visible = True                   ' Show the sound test button<br>      End If<br>    Case 7                                            '======== LAST CLICK ON BLACK ============<br>      picBlkBtn.Picture = picBlkBtnUp.Picture         ' Black Button returns to up position<br>      If (strSetAlarm = "ON") Then<br>        strAlarmSound = strSetReadout                 ' Store the newly set Alarm sound<br>      End If<br>      DisplayHands (True)                             ' Show the watch hands again<br>      picTestSound.Visible = False                    ' Hide the sound test button<br>      MediaPlayer2.Stop                               ' Stop (if still) playing alarm sound<br>      picSetBtn.Visible = False                       ' Hide the option setting button<br>      lblActionType.Caption = ""                      ' Clear the Indicator labels<br>      lblSetInstruction.Caption = ""                  '   ""          ""       ""<br>      blnBlkBtnDn = False                             ' Flag that the Black Button is up<br>      intNumBlkClicks = 0                             ' Number of Black clicks returns to zero<br>      blnTimeDisplay = True                           ' Flag Return to normal time display<br>      picRedBtn.Enabled = True                        ' Enable the Red button again<br>      picGrnBtn.Enabled = True                        ' Enable the Green button again<br>  End Select<br><br>End Sub
+</pre>
+
+
+</BODY>
+</HTML>
